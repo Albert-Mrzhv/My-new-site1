@@ -1,0 +1,317 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: url(https://s1.1zoom.ru/b5050/474/354282-admin_3840x2400.jpg);
+    font-size: 25px;
+}
+
+.bot-robot {
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    background-color: blanchedalmond;
+    height: 520px;
+}
+
+.inp {
+    width: 900px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 9px;
+    box-shadow: 3px 5px 6px gray;
+    border: none;
+    outline: none;
+    transition: all 0.3s;
+}
+
+.inp:hover {
+    box-shadow: inset 3px 5px 6px gray;
+
+}
+
+.button {
+    width: 80px;
+    height: 40px;
+    font-size: 18px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.button:active {
+    background: gray;
+}
+
+.res {
+    border-bottom: 1px solid;
+    height: 30px;
+}
+
+
+@media (max-width: 546px) {
+    .lst {
+        font-size: 20px;
+        padding-right: 40px;
+    }
+}
+
+@media (max-width: 415px) {
+    .lst li {
+        font-size: 12px;
+    }
+    .bot-robot {
+        height: 700px;
+    }
+    .res {
+        height: 95px;
+    }
+    .alb:hover {
+        width: 350px;
+    }
+    .cnp {
+        margin-right: 45px;
+        
+    }
+    .inp {
+        width: 330px;
+    }
+}
+
+
+
+
+
+
+
+@media (max-width: 391px) {
+    .lst li {
+        font-size: 15px;
+        margin-right: -25px;
+    }
+    
+    .lst {
+        padding-right: 43px;
+    }
+}
+
+@media (max-width: 376px) {
+    .lst li {
+        font-size: 17px;
+        margin-right: -24px;
+    }
+    .lst {
+        padding-left: 15px;
+    }
+    .alb:hover {
+        width: 320px;
+    }
+    .inp {
+        width: 220px;
+    }
+    .bot-robot {
+        height: 700px;
+    }
+    .res {
+        height: 95px;
+    }
+}
+
+@media (max-width: 361px) {
+    .lst li {
+        font-size: 15px;
+    }
+}
+
+a {
+    text-decoration: none;
+}
+
+.lst {
+    list-style: none; 
+    display: flex;
+    justify-content: center;
+    background: rgb(226, 226, 226);
+    position: fixed;
+    left: 0;
+    right: 0;
+    margin: 0;
+    top: 0;
+    opacity: 0.9;
+}
+
+.lst li {
+    padding: 23px;
+    transition: all 0.3s;
+}
+
+.lst li:hover {
+    background: black;
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+}
+
+.centr {
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 90px;
+}
+
+.alb {
+    border: 5px solid rgb(145, 45, 12);
+    border-radius: 10px;
+    box-shadow: 5px 8px 9px black;
+}
+
+.alb:hover {
+    width: 400px;
+    transition: all 0.3s;
+}
+
+
+.tabl {
+    font-size: 25px;
+    
+}
+
+.tabl td:nth-child(2),
+.tabl td:nth-child(3) {
+    color: rgb(71, 68, 68);
+    padding: 4px;
+}
+
+@media (max-width: 394px) {
+    .tabl {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 280px) {
+    .tabl {
+        font-size: 16px;
+    }
+    .sp {
+        font-size: 16px;
+    }
+    .alb {
+        width: 129px;
+    }
+    .alb:hover {
+        width: 200px;
+    }
+    .lst li {
+        font-size: 10px;
+    }
+}
+
+
+@media (max-width: 361px) {
+    .alb:hover {
+        width: 310px;
+    }
+}
+
+@media (max-width: 281px) {
+    .alb:hover {
+        width: 230px;
+    }
+}
+
+
+.card {
+    margin: 12px;
+    padding: 8px;
+    border-radius: 10px;
+    transition: all 0.3s;
+}
+
+.head {
+    background: rgb(71, 38, 38);
+    color: white;
+}
+
+.head:hover {
+    background: rgb(100, 207, 171);
+    color: rgb(18, 17, 17);
+}
+
+
+.body {
+    background: rgb(71, 156, 127);
+    color: blanchedalmond;
+}
+
+.body:hover {
+    background: rgb(115, 249, 205);
+    color: black;
+}
+
+.body2 {
+    background: rgb(92, 42, 90);
+}
+
+.body2:hover {
+    background: hotpink;
+}
+
+.foot {
+    background:  rgb(122, 119, 90);
+}
+
+.foot:hover {
+    background: khaki;
+}
+#name {
+    border-radius: 8px;
+    transition: all 0.3s;
+}
+
+#name:hover {
+    box-shadow: 3px 4px 7px black;
+    font-size: 17px;
+    
+}
+
+#email {
+    border-radius: 8px;
+    transition: all 0.3s;
+}
+
+#email:hover {
+    box-shadow: 3px 4px 7px black;
+    font-size: 17px; 
+}
+
+#messange {
+    border-radius: 8px;
+    transition: all 0.3s;
+}
+
+#messange:hover {
+    box-shadow: 3px 4px 7px black;
+    font-size: 17px;
+}
+
+.cnopca {
+    padding: 7px;
+    border-radius: 7px;
+    margin-left: 20px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.cnopca:hover {
+    background: rgb(176, 176, 176);
+}
+
+.cart {
+    width: 30px;
+}
+
+.lists {
+    list-style: none;
+    display: flex;
+    background: rgb(245, 144, 144);
+    justify-content: center;
+    align-items: center;
+}

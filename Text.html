@@ -1,0 +1,102 @@
+<!DOCTYPE htmlwidth="1567px">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Albert, resume">
+    <meta name="descrition" content="Моё первое резюме">
+    <link rel="stylesheet" href="Btf.css">
+    <script src="app.js" defer></script>
+    <title>Резюме</title>
+</head>
+<body>
+    <ul class="lst">
+            <a href="https://learn.javascript.ru/" target="_blank"><li>Learn</li></a>
+            <a href="https://gpt-chatbot.ru/" target="_blank"><li>GPT</li></a>
+            <a href="https://codepen.io/nathantaylor/pen/PJGqdE" target="_blank"><li>Codepen</li></a>
+            <a href="https://www.codewars.com/" target="_blank"><li>Codewars</li></a>
+            <a href="https://english-abc.ru/transcription" target="_blank"><li>English</li></a>
+        </ul>
+    <div class="centr">        
+        <header class="card head">
+            <img class="alb" src="Tgfd.jpg" alt="Мост" width="250px">
+            <h1>Альберт Муружев</h1>
+            <p>Я начинающий <strong>Фронтенд-разработчик,</strong> который учится самостоятельно в онлайн курсах!</p>
+            <p><em>Мне нравится учиться и развиваться в этой сфере</em></p>
+        </header>
+        <form class="bot-robot">
+            <h3>Напишите мне своё имя и возраст</h3>
+            <label>Имя:</label><br><br>
+            <input class="inp" type="text" id="name2" maxlength="15"><br><br>
+            
+            <label>Возраст:</label><br><br>
+            <input class="inp" type="number" id="age2" min="1" max="100"><br><br>
+            
+            <input class="button" type="button" id="button" value="Нажать">
+            <p>
+                <div class="res" id="result"></div>
+            </p>
+            <p>
+                <div class="res" id="result2"></div>
+            </p>
+        </form>
+        <div class="card body">
+            <p><strong>Список социальных сетей:</strong></p>
+            <a href="https://vk.com/id551217110" target="_blank"><img class="cart" src="VK.png" alt=""></a> | <a href="#"><img class="cart" src="YouTube.png" alt=""></a> | <a href="#"><img class="cart" src="instagram.png" alt=""></a>        
+            <h2>Мои хобби:</h2>
+            <ol class="sp">
+                <li>Программирование</li>
+                <li>Турник</li>
+                <li>Бокс</li>
+            </ol>
+        </div>
+        <div class="card body2">
+            <h2>Опыт работы:</h1>
+            <table class="tabl" border="1">
+                <tr>
+                    <th>Название</th>
+                    <th>Должность</th>
+                    <th>Год</th>
+                </tr>
+                <tr>
+                    <td>Фронтенд</td>
+                    <td>Junior</td>
+                    <td>2015-1018</td>
+                </tr>
+                <tr>
+                    <td>Bakcand</td>
+                    <td>midle</td>
+                    <td>2018-2020</td>
+                </tr>
+                <tr>
+                    <td>Full-stak</td>
+                    <td>Senuor</td>
+                    <td>2020-2023</td>
+                </tr>
+            </table>
+        </div>
+        <div class="card foot">
+                <form>
+                    <p><h3>Связаться со мной</h3></p>
+                    <div>
+                        <label for="name">Введите имя:</label>
+                        <input class="cnp" id="name" type="text" placeholder="Введите имя">
+                    </div>
+                    <div>
+                        <label for="email">Введите email:</label>
+                        <input class="cnp" id="email" type="email" placeholder="Введите email">
+                    </div>
+                    <br>
+                    <div>
+                        <label for="messange">Ваше сообщение:</label><br>
+                        <textarea id="messange" placeholder="Введите сообщение"></textarea>
+                    </div>
+                    <br>
+                    <div>
+                        <input class="cnopca" type="submit" value="Отправить">
+                    </div>
+                </form>
+        </div>
+    </div>
+</body>
+</html>
